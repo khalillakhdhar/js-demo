@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
+function sum()
+{
+    var x=parseInt(document.getElementById("v1").value);
+    var y=parseInt(document.getElementById("v2").value);
+    if(x==600 && y==500)
+    alert(x-y);
+    else
+    alert(x+y);
+
+
+}
+
+</script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+        valeur1:<input id="v1" name="v1" type="number" min="1" placeholder="valeur1"><br>
+        valeur2:<input id="v2" type="number" name="v2" min="1" placeholder="valeur2"><br>
+        <button onclick="sum()">Calculer somme</button>
+
+    
+</body>
+</html>
