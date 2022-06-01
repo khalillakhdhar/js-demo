@@ -23,7 +23,7 @@ function verifJours(j,m,a)
     return false;
     if(!verifAnnee(a)|| !verifMois(m))
     return false;
-  var shortMonth=[4,6,9,11];
+  var shortMonth=[4,6,9,11]; // initialisation
     if(shortMonth.includes(m))
     {
         console.log("short");
