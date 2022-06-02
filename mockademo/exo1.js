@@ -1,5 +1,5 @@
 var assert=require('assert');
-var tab=["a"];
+var tab=["a","b","c"];
 function diviseValid(b)
 {
     return b!=0;
